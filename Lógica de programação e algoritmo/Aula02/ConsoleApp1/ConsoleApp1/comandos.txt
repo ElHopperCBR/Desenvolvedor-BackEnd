@@ -1,0 +1,61 @@
+using static System.Console;
+/*
+// Saída de dados
+ForegroundColor = ConsoleColor.White; Muda cor da letra
+BackgroundColor = ConsoleColor.Magenta; Muda o fundo da letra
+double numero = 1.73598597; Cria uma variavel do tipo double
+WriteLine($"Salario = R$ {numero:n}"); 
+WriteLine("Hello," +
+    "World!");
+*/
+Write("SENAI");//SAIDA DE DADOS
+WriteLine("Clodoaldo");
+Beep();
+Write("BRASIL");
+WriteLine("CAMPEAO\nClodoaldo");
+Title = "Aplicativo SENAI";
+string escola = "AMERICANA";
+WriteLine($"SENAI {escola}");
+ForegroundColor = ConsoleColor.Red;
+WriteLine("\t\t\t\tMESSI");
+ForegroundColor = ConsoleColor.Blue;
+WriteLine("MESSI");
+ResetColor();
+WriteLine("MESSI");
+ReadKey();
+
+//Processamento de dados
+// Operadores aritméticos
+int a = 1 + 1; //Op soma
+int b = 2 - 1; //Op sub
+int c = 3 * 1; //Op mult
+double d = 4 / 1; //Op divisão
+double e = 2 * 2 * 2; //Potência
+double f = Math.Sqrt(4);//Raiz quadrada
+Math.Pow(2,3); //Potência
+double k = 1 + (1 - (2 * 3)) / 4;
+double j = 2 % 2; //Módulo ou resto da divisão
+int y = 0;
+Console.WriteLine(y);
+y++; //Incremento em um
+Console.WriteLine(y);
+y--; //Decremento em um
+Console.WriteLine(y);
+y += 2; //Soma e atribuição
+y -= 2; //Subtração e atribuição
+y *= 2; //Multiplicação e atribuição
+y /= 2; //Divisão e atribuição
+y %= 2; //Módulo e atribuição
+Console.WriteLine(y);
+
+//Entrada de dados
+Console.Write("Digite o seu nome: ");
+string nome = Console.ReadLine(); //Entrada de dados
+Console.Write("Digite a sua idade: ");
+int idade = int.Parse(Console.ReadLine());//Conversão de dados
+Console.Write("Digite o seu salário: R$");
+double salario = double.Parse(Console.ReadLine());
+Console.WriteLine($"Nome: {nome}, Idade {idade+1}, Salario = R${salario}");
+
+
+
