@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="Atividade01/Atividade01.csproj" />
+  <Project Path="Medidas/Medidas.csproj" />
   <Project Path="Operadores/Operadores.csproj" />
 </Solution>
