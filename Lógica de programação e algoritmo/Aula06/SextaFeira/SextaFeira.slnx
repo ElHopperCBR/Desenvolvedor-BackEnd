@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="Crescente/Crescente.csproj" />
+  <Project Path="Lanchonete/Lanchonete.csproj" />
+  <Project Path="ParOuImpar/ParOuImpar.csproj" />
+  <Project Path="Parque/Parque.csproj" />
+  <Project Path="Senha/Senha.csproj" />
+  <Project Path="Sequencia/Sequencia.csproj" />
+  <Project Path="Tabuada/Tabuada.csproj" />
+</Solution>
