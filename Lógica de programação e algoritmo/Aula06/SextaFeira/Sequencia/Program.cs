@@ -1,4 +1,6 @@
-﻿//Declaração de variaveis
+﻿using static System.Linq.Enumerable;
+
+//Declaração de variaveis
 int x;
 
 //Entrada de dados
