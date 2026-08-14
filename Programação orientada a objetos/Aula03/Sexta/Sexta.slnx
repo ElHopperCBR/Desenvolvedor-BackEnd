@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Aplicativo01/Aplicativo01.csproj" />
+  <Project Path="Estrutura/Estrutura.csproj" />
+</Solution>

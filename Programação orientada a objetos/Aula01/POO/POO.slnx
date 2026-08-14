@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ConsoleApp1/ConsoleApp1.csproj" />
+  <Project Path="POO2/POO2.csproj" />
+  <Project Path="Triangulo_Com_POO/Triangulo_Com_POO.csproj" />
+  <Project Path="Triangulo_Sem_POO/Triangulo_Sem_POO.csproj" />
+</Solution>

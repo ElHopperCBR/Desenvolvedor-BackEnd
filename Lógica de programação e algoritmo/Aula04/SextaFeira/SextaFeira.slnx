@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="labddda/labddda.csproj" Id="83337a60-7581-41ed-a8e9-5148ba0f0955" />
   <Project Path="SextaFeira/SextaFeira.csproj" />
   <Project Path="Tarefas/Tarefas.csproj" />
   <Project Path="Telas/Telas.csproj" />

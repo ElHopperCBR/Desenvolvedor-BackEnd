@@ -18,8 +18,6 @@ void Tarefa1()
     Console.WriteLine("SENAI");
 }
 
-double Tarefa2()
-{
-    Console.WriteLine("Valor");
-    return 1.73;
-}
+
+
+double Tarefa2(double a = 2, double b = 1) => a * b;

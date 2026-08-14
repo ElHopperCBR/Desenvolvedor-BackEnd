@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Rec_Func/Rec_Func.csproj" />
+  <Project Path="Rec_Lambda/Rec_Lambda.csproj" />
+</Solution>
