@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Banco/Banco.csproj" />
+  <Project Path="Master/Master.csproj" />
+</Solution>

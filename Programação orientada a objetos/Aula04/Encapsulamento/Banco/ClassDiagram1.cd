@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Banco.ContaBancaria">
+    <Position X="3.75" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AACACgAACAEAAAAAAAAAAAAAAAAAAAAEAAEAAAAGAAA=</HashCode>
+      <FileName>ContaBancaria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
