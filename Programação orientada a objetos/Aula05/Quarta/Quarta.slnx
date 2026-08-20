@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Contrato/Contrato.csproj" />
+  <Project Path="Pedido/Pedido.csproj" />
+</Solution>
