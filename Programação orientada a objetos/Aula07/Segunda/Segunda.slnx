@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Aluguel/Aluguel.csproj" />
+  <Project Path="Biblioteca/Biblioteca.csproj" />
+</Solution>
