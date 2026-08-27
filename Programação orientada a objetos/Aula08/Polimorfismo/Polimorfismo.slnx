@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Master/Master.csproj" />
+  <Project Path="Pessoas/Pessoas.csproj" />
+</Solution>
