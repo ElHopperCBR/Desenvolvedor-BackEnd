@@ -1,0 +1,2 @@
+DELETE Vendas WHERE Id = 2;
+GO
