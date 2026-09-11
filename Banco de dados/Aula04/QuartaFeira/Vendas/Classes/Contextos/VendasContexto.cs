@@ -11,7 +11,7 @@ namespace VendasSenai.Classes.Contextos
         //Métodos
         protected override void OnConfiguring(DbContextOptionsBuilder opcoesDeConstrucao)
         {
-            string caminho = @"Server=(localdb)\MSSQLLocalDB;Database=CamisasSENAI;Trusted_Connection=True;TrustServerCertificate=True";
+            string caminho = @"Server=(localdb)\MSSQLLocalDB;Database=BancoDBContas;Trusted_Connection=True;TrustServerCertificate=True";
             opcoesDeConstrucao.UseSqlServer(caminho);
         }
         
@@ -19,6 +19,7 @@ namespace VendasSenai.Classes.Contextos
         {
                 modeloDeConstrucao.Entity<Vendas1>(entidade =>
                 {
+                    entidade.ToTable("VendasMarket");
                     entidade.HasKey(e => e.Id);
                     entidade.Property(e => e.DataCompra);
                     entidade.Property(e => e.Tipo);
