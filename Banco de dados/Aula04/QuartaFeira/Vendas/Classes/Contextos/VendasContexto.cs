@@ -11,7 +11,7 @@ namespace VendasSenai.Classes.Contextos
         //Métodos
         protected override void OnConfiguring(DbContextOptionsBuilder opcoesDeConstrucao)
         {
-            string caminho = @"Server=(localdb)\MSSQLLocalDB;Database=BancoDBContas;Trusted_Connection=True;TrustServerCertificate=True";
+            string caminho = @"Server=(localdb)\MSSQLLocalDB;Database=CamisasSENAI;Trusted_Connection=True;TrustServerCertificate=True";
             opcoesDeConstrucao.UseSqlServer(caminho);
         }
         
@@ -26,9 +26,13 @@ namespace VendasSenai.Classes.Contextos
                     entidade.Property(e => e.Marca);
                     entidade.Property(e => e.Faturamento);
                     entidade.Property(e => e.Lucro);
+                    
                 }
 
             );
         }
+
+
+        
     }
 }
