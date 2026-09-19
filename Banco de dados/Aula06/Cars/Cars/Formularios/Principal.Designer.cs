@@ -50,6 +50,7 @@
             button3 = new Button();
             checkBox1 = new CheckBox();
             checkBox2 = new CheckBox();
+            comboBox1 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -65,6 +66,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(855, 81);
             textBox1.TabIndex = 0;
+            textBox1.KeyDown += textBox1_KeyDown;
             // 
             // label1
             // 
@@ -139,7 +141,7 @@
             panel1.Location = new Point(3, 2);
             panel1.Margin = new Padding(4, 5, 4, 5);
             panel1.Name = "panel1";
-            panel1.Size = new Size(487, 748);
+            panel1.Size = new Size(212, 748);
             panel1.TabIndex = 7;
             // 
             // pictureBox1
@@ -149,6 +151,7 @@
             pictureBox1.Margin = new Padding(4, 5, 4, 5);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(259, 275);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 18;
             pictureBox1.TabStop = false;
             // 
@@ -228,7 +231,7 @@
             // textBox2
             // 
             textBox2.Enabled = false;
-            textBox2.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox2.Font = new Font("Segoe UI", 15F);
             textBox2.Location = new Point(273, 48);
             textBox2.Margin = new Padding(4, 5, 4, 5);
             textBox2.Multiline = true;
@@ -294,6 +297,7 @@
             button3.Text = "Fechar compra";
             button3.TextAlign = ContentAlignment.MiddleRight;
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // checkBox1
             // 
@@ -315,6 +319,15 @@
             checkBox2.Text = "Carro";
             checkBox2.UseVisualStyleBackColor = true;
             // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "Inicia", "Contém" });
+            comboBox1.Location = new Point(933, 309);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(182, 33);
+            comboBox1.TabIndex = 11;
+            // 
             // Principal
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -323,6 +336,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Center;
             ClientSize = new Size(1143, 750);
+            Controls.Add(comboBox1);
             Controls.Add(checkBox2);
             Controls.Add(checkBox1);
             Controls.Add(panel1);
@@ -369,5 +383,6 @@
         private PictureBox pictureBox1;
         private CheckBox checkBox1;
         private CheckBox checkBox2;
+        private ComboBox comboBox1;
     }
 }
