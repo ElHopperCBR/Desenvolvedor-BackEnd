@@ -361,3 +361,4 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Banco de dados/Aula07/ERPVendas/SistemaERP/Classes/Contextos/ContextoUsuario.cs
