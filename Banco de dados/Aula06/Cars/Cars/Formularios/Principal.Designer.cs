@@ -141,7 +141,7 @@
             panel1.Location = new Point(3, 2);
             panel1.Margin = new Padding(4, 5, 4, 5);
             panel1.Name = "panel1";
-            panel1.Size = new Size(212, 748);
+            panel1.Size = new Size(899, 748);
             panel1.TabIndex = 7;
             // 
             // pictureBox1
