@@ -46,6 +46,7 @@
             criarUsuárioToolStripMenuItem = new ToolStripMenuItem();
             excluirUsuárioToolStripMenuItem = new ToolStripMenuItem();
             pictureBox1 = new PictureBox();
+            reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -56,7 +57,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1, vendasToolStripMenuItem, usuáriosToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 33);
+            menuStrip1.Size = new Size(907, 33);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -115,6 +116,7 @@
             relátorioDeVendasToolStripMenuItem.Name = "relátorioDeVendasToolStripMenuItem";
             relátorioDeVendasToolStripMenuItem.Size = new Size(373, 34);
             relátorioDeVendasToolStripMenuItem.Text = "Relátorio de vendas";
+            relátorioDeVendasToolStripMenuItem.Click += relátorioDeVendasToolStripMenuItem_Click;
             // 
             // editarPedidoDeVendasToolStripMenuItem
             // 
@@ -162,21 +164,33 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(109, 109);
+            pictureBox1.Image = Properties.Resources.Clodoaldo;
+            pictureBox1.Location = new Point(69, 109);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(591, 271);
+            pictureBox1.Size = new Size(722, 401);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
+            // 
+            // reportViewer1
+            // 
+            reportViewer1.Location = new Point(0, 0);
+            reportViewer1.Name = "ReportViewer";
+            reportViewer1.ServerReport.BearerToken = null;
+            reportViewer1.Size = new Size(396, 246);
+            reportViewer1.TabIndex = 0;
             // 
             // ERP
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            AutoSize = true;
+            ClientSize = new Size(907, 594);
             Controls.Add(pictureBox1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "ERP";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "ERP Vendas";
             FormClosed += ERP_FormClosed;
             menuStrip1.ResumeLayout(false);
@@ -206,5 +220,6 @@
         private ToolStripMenuItem criarUsuárioToolStripMenuItem;
         private ToolStripMenuItem excluirUsuárioToolStripMenuItem;
         private PictureBox pictureBox1;
+        private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
     }
 }

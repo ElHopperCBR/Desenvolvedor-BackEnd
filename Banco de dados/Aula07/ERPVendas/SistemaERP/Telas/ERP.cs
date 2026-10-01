@@ -1,4 +1,5 @@
-﻿using SistemaERP.Classes.Services;
+﻿using Microsoft.Reporting.WinForms;
+using SistemaERP.Classes.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -32,6 +33,26 @@ namespace SistemaERP.Telas
             Hide();
             Aprovacao tela = new Aprovacao();
             tela.Show();
+        }
+
+        private void relátorioDeVendasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                CarregarRelatorio();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show($"Não foi possivel carregar o relatório: Erro -> {ex.Message}");
+            }
+        }
+
+        private void CarregarRelatorio()
+        {
+            Hide();
+            RelatorioVendas relatorio = new RelatorioVendas();
+            relatorio.Show();
         }
     }
 }
