@@ -11,7 +11,7 @@ GitHub: [@ElHopperCBR](https://github.com/ElHopperCBR)
 
 ## Carga horária = 160 horas
 
-## 📌 Sobre este repositório
+## 📌 Sobre este repositório 📌
 
 Este repositório reúne exercícios e projetos práticos organizados por módulos de estudo, com foco em:
 
@@ -20,14 +20,14 @@ Este repositório reúne exercícios e projetos práticos organizados por módul
 - Banco de dados
 - Desenvolvimento de APIs
 
-## 🧰 Tecnologias utilizadas
+## 🧰 Tecnologias utilizadas 🧰
 
 - **C#** (principal)
 - **SQL / T-SQL**
 - **HTML / CSS / JavaScript** (apoio em algumas atividades)
 - **Python** (atividades pontuais)
 
-## 📚 Projetos por módulo
+## 📚 Projetos por módulo 📚
 
 ### 🧠 Lógica de programação e algoritmo
 
