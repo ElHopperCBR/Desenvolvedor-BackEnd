@@ -55,15 +55,24 @@ namespace APIPessoas.Repositorios
             contexto.SaveChanges();
         }
 
-        public void EditarProduto(Produtos p, Produtos produto)
+        /// <summary>
+        /// Edita um produto existente na base de dados
+        /// </summary>
+        /// <param name="produto">Produto com o Id existente e os novos valores</param>
+        /// <returns>true se editou; false se o produto não foi encontrado</returns>
+        public bool EditarProduto(Produtos produto)
         {
-            p = PesquisarProdutosID(produto.Id);
-            p.Nome = produto.Nome;
-            p.Preco = produto.Preco;
-            p.Descricao = produto.Descricao;
-            p.Quantidade = produto.Quantidade;
-            contexto.Update(p);
+            var existente = PesquisarProdutosID(produto.Id);
+            if (existente == null)
+                return false;
+
+            existente.Nome = produto.Nome;
+            existente.Preco = produto.Preco;
+            existente.Descricao = produto.Descricao;
+            existente.Quantidade = produto.Quantidade;
+
             contexto.SaveChanges();
+            return true;
         }
 
     }

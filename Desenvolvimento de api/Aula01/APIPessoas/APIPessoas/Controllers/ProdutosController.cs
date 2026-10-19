@@ -61,16 +61,11 @@ namespace APIPessoas.Controllers
         {
             try
             {
-                Produtos p = rep.PesquisarProdutosID(id);
-                if (p == null)
-                {
-                    return NotFound("Produto para editar não encontrado na base de dados");
-                }
-                else
-                {
-                    rep.EditarProduto(p, produto);
-                    return Ok("Produto editado com sucesso");
-                }
+                produto.Id = id;
+                if (!rep.EditarProduto(produto))
+                    return NotFound("Produto não encontrado.");
+
+                return NoContent();
             }
             catch (Exception e)
             {
