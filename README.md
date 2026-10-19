@@ -31,15 +31,6 @@ Este repositório reúne exercícios e projetos práticos organizados por módul
 
 | Módulo | Projeto | Link |
 |---|---|---|
-| Banco de dados | Aula01 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Banco%20de%20dados/Aula01) |
-| Banco de dados | Aula02 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Banco%20de%20dados/Aula02) |
-| Banco de dados | Aula03 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Banco%20de%20dados/Aula03) |
-| Banco de dados | Aula04 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Banco%20de%20dados/Aula04) |
-| Banco de dados | Aula05 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Banco%20de%20dados/Aula05) |
-| Banco de dados | Aula06 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Banco%20de%20dados/Aula06) |
-| Banco de dados | Aula07 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Banco%20de%20dados/Aula07) |
-| Banco de dados | teste | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Banco%20de%20dados/teste) |
-| Desenvolvimento de API | Aula01 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Desenvolvimento%20de%20api/Aula01) |
 | Lógica de programação e algoritmo | Aula01 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20e%20algoritmo/Aula01) |
 | Lógica de programação e algoritmo | Aula02 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20e%20algoritmo/Aula02) |
 | Lógica de programação e algoritmo | Aula03 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20e%20algoritmo/Aula03) |
@@ -59,6 +50,16 @@ Este repositório reúne exercícios e projetos práticos organizados por módul
 | Programação orientada a objetos | Aula07 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Programa%C3%A7%C3%A3o%20orientada%20a%20objetos/Aula07) |
 | Programação orientada a objetos | Aula08 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Programa%C3%A7%C3%A3o%20orientada%20a%20objetos/Aula08) |
 | Programação orientada a objetos | Aula09 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Programa%C3%A7%C3%A3o%20orientada%20a%20objetos/Aula09) |
+| Banco de dados | Aula01 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Banco%20de%20dados/Aula01) |
+| Banco de dados | Aula02 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Banco%20de%20dados/Aula02) |
+| Banco de dados | Aula03 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Banco%20de%20dados/Aula03) |
+| Banco de dados | Aula04 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Banco%20de%20dados/Aula04) |
+| Banco de dados | Aula05 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Banco%20de%20dados/Aula05) |
+| Banco de dados | Aula06 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Banco%20de%20dados/Aula06) |
+| Banco de dados | Aula07 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Banco%20de%20dados/Aula07) |
+| Desenvolvimento de API | Aula01 | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Desenvolvimento%20de%20api/Aula01) |
+
+
 
 
 
