@@ -16,7 +16,7 @@ builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(opcoes =>
 {
-    opcoes.SwaggerDoc("v1", new Microsoft.OpenApi.OpenApiInfo
+    opcoes.SwaggerDoc("versao1", new Microsoft.OpenApi.OpenApiInfo
     {
         Title = "API para conta bancaria do SENAI",
         Version = "Versão 1",
@@ -43,7 +43,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "API de contas V1");
+        c.SwaggerEndpoint("/swagger/versao1/swagger.json", "API de contas V1");
         c.DocumentTitle = "Documentação da API de contas do SENAI";
     });
 }
