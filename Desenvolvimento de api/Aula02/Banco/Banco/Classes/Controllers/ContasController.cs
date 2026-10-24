@@ -20,8 +20,7 @@ namespace Banco.Classes.Controllers
         /// <returns> Lista de contas</returns>
         /// <response code = "200"> Lista retornada com sucesso</response>
         // GET: api/<ContasController>
-        [HttpGet]
-        
+        [HttpGet]        
         public IEnumerable<ContaBancaria> Get()
         {
             return rep.ListarContas();
