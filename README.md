@@ -9,6 +9,8 @@ procedimento e normas.
 **ElHopperCBR**  
 GitHub: [@ElHopperCBR](https://github.com/ElHopperCBR)
 
+Linkedin:[@CesarBrandão](https://www.linkedin.com/in/cesarbrandaoeletrica/)
+
 ## Carga horária = 160 horas
 
 ## 📌 Sobre este repositório 📌
@@ -53,6 +55,7 @@ Módulo com foco em estudo dos conceitos da programação orientada a objetos, u
 - herança;
 - polimofismo;
 - abstração
+  
 Além dos estudos das classes estáticas, enumerações, interfaces e relação de objetos.
 
 | Projeto | Status | Link |
@@ -74,6 +77,7 @@ Módulo com foco no desenvolvimento de aplicações que utilizam banco de dados 
 - READ -> LER
 - UPDATE -> Atualizar
 - DELETE -> Deletar
+  
   Com elaboração de algumas consultas (querys) SQL mas os projetos em sua maioria foram desenvolvidos com ORM -> Objeto Relacional Mapeado.
 
 | Projeto | Status | Link |
