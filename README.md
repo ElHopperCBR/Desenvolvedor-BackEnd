@@ -31,6 +31,8 @@ Este repositório reúne exercícios e projetos práticos organizados por módul
 
 ### 🧠 Lógica de programação e algoritmo
 
+Módulo de estudos de algoritmos elaborados em CSharp com foco em lógica de programação, variáveis, constantes, operadores, coleções de dados, estruturas de controle de código, funções e bibliotecas.
+
 | Projeto | Status | Link |
 |---|---|---|
 | Aula01 | ✅ Concluído | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o%20e%20algoritmo/Aula01) |
@@ -46,6 +48,13 @@ Este repositório reúne exercícios e projetos práticos organizados por módul
 
 ### 🧱 Programação orientada a objetos
 
+Módulo com foco em estudo dos conceitos da programação orientada a objetos, um dos diversos paradigmas de programação, com definição dos pilares: 
+- encapsulamento;
+- herança;
+- polimofismo;
+- abstração
+Além dos estudos das classes estáticas, enumerações, interfaces e relação de objetos.
+
 | Projeto | Status | Link |
 |---|---|---|
 | Aula01 | ✅ Concluído | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Programa%C3%A7%C3%A3o%20orientada%20a%20objetos/Aula01) |
@@ -60,6 +69,13 @@ Este repositório reúne exercícios e projetos práticos organizados por módul
 
 ### 🗄️ Banco de dados
 
+Módulo com foco no desenvolvimento de aplicações que utilizam banco de dados com a técnica ORM realizando as operações CRUD :
+- CREATE -> CRIAR
+- READ -> LER
+- UPDATE -> Atualizar
+- DELETE -> Deletar
+  Com elaboração de algumas consultas (querys) SQL mas os projetos em sua maioria foram desenvolvidos com ORM -> Objeto Relacional Mapeado.
+
 | Projeto | Status | Link |
 |---|---|---|
 | Aula01 | ✅ Concluído | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Banco%20de%20dados/Aula01) |
@@ -71,6 +87,8 @@ Este repositório reúne exercícios e projetos práticos organizados por módul
 | Aula07 | ✅ Concluído | [Abrir](https://github.com/ElHopperCBR/Desenvolvedor-BackEnd/tree/main/Banco%20de%20dados/Aula07) |
 
 ### 🔌 Desenvolvimento de API REST
+
+Módulo para desenvolvimento de API REST com operações CRUD utilizando protocolo HTTP com suporte ao aplicativo Postman para testes da API, além da elaboração de documentação da API através do SWAGGER. Na última aula, foi desenvolvido uma API com operações CRUD, incompleta, com foco em geração de TOKENS através do JWT (JSON Web Token).
 
 | Projeto | Status | Link |
 |---|---|---|
